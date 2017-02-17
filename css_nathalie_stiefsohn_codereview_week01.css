@@ -23,7 +23,7 @@ body {
 			    text-decoration: none;  
 	}
 	/*End of Style of anchor links*/
-
+/* SELECTOR WEIGHT: a new background color will apply. bobdy and header are on the same level, but I defined the background color for header after i designed the background color for body*/
 		header {
 			background-color: #3b5998;
 			height: 60px;
@@ -35,6 +35,7 @@ body {
 			top: 0px;
 			left: 0px;
 			right: 0px;
+			box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
 		}
 
 		header * {
@@ -142,7 +143,7 @@ main {
 }*/
 article {
 	width: 500px;
-	height: 320px;
+	height: 330px;
 	background-color: white;
 	position: static;
 	margin-left: 50px;
@@ -151,8 +152,9 @@ article {
 	top: 0;
 	z-index: -100;
 	padding: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
 
-}0
+} 
 
 	/*header_article*/
 		.header_article p {
@@ -160,9 +162,15 @@ article {
 
 		}
 
+
 		.header_article h3 {
 			padding-top: 5px;
 		}
+
+		.header_article h3::first-letter {
+			font-size: large;
+		}
+
 		.header_article img {
 			height: 50px;
 			position: static;
