@@ -1,0 +1,61 @@
+header {
+	background-color: #3b5998;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	color: white;
+	font-family: sans-serif;
+	font-size: small;
+}
+
+header * {
+	position: fixed;
+}
+
+#fb_logo {
+	margin-left: 5%;
+	top:0px;
+
+/*	z-index: 101;*/
+}
+
+#search_bar {
+	height:27px;
+	width: 35%;
+	margin-left: 8%;
+	top: 18px; 
+	padding-left: 10px;
+/*	z-index: 101;
+*/}
+
+#user {
+	margin-left: 50%;
+	top: 0px;
+}
+#startseite {
+	margin-left: 56%;
+	top: 25px;
+}
+
+#fb_buttons {
+	margin-left: 65%;
+	top:0;
+}
+
+/*Style of anchor links*/
+a {   
+    color: white; 
+    text-decoration: none;  
+}
+
+a:active {
+    color: white;
+    text-decoration: none;  
+}
+
+a[tabindex]:focus {
+    color:white;
+    outline: none;
+    text-decoration: none;  
+}
+/*End of Style of anchor links*/
